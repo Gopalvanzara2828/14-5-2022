@@ -1,0 +1,59 @@
+*{
+    background-color: chocolate;
+    width: 100%;
+}
+
+
+
+
+
+
+div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: a1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes a1{
+   100%{
+        background-color: black;
+        left: 0px;
+        top: 0px;
+        transform: rotate(0deg);
+        border-radius: 50px;
+    }
+    25%{
+        left: 200px;
+        top: 0px;
+        transform: rotate(900deg);
+        background-color: green;
+        border-style: dotted;
+
+    }
+    50%{
+        background-color: yellow;
+        left: 200px;
+        top: 200px;
+        transform: rotate(1800deg);
+        box-shadow: darkmagenta;
+    }
+    75%{
+        background-color: blue;
+        top: 200px;
+        left: 0px;
+        transform: rotate(270deg);
+        border-radius: 50px;
+        border-style: double;
+
+    }
+    300%{
+        background-color: black;
+        left: 0px;
+        top: 0px;
+        transform: rotate(360deg);
+        box-shadow: violet;
+    }
+}
